@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ .Content }}
+<ul id="post-list">
+{{ range (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)}}
+	{{ partial "post.html" . }}
+{{ end }}
+</ul>
+{{ end }}
