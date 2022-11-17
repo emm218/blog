@@ -9,12 +9,11 @@
 		<title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 	</head>
   <body>
-		<div id="wrapper">
+		<div style="padding:1.5em 26px 0;">
 		<a href="#main" class="skip">Skip to content</a>
 		{{ partial "header.html" . }}
-		<main id="main">
-			{{ block "main" . }}{{ end }}
-		</main>
+		<a id="main"></a>
+		{{ block "main" . }}{{ end }}
 		</div>
 		{{ partial "footer.html" . }}
 	</body>

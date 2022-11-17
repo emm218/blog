@@ -9,4 +9,4 @@ layout: special
 
 - [Lili](https://github.com/emm218/lili), a new elixir activitypub server
 - ~~modify hugo to serve plaintext posts as part of a site~~ [done!](/posts/plaintext.txt)
-
+- make an autoscrobbler (in rust to match my shuffling program?) that can properly deal with internet radio stations

@@ -4,17 +4,16 @@ html {
 
 body {
 	max-width:80ex;
-	margin: -1em auto;
+	margin: auto;
 	line-height:1.6;
 	font-size:12pt;
 	background: #fdf3f4;
+	background-image:url(/pix/topborder.png);
+	background-repeat:repeat-x;
 	color:#57565b;
 	border:1px solid #57565b;
+	border-top:none;
 	box-shadow:0 0 2em #f55072;
-}
-
-#wrapper {
-	padding: 26px;
 }
 
 .skip {
