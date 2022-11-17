@@ -1,0 +1,5 @@
+#!/bin/sh
+
+hugo
+rm -r public/sitemap.xml public/index.xml public/categories.html public/categories public/posts.html public/tags public/tags.html
+neocities push public

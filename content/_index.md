@@ -11,12 +11,13 @@ menu:
 Welcome to my site!
 <br>
 欢迎来到我的网站！
-</center>
-
-<pre>
+<br>
+<pre title="bnuy" style="display:inline-block;cursor:default;margin:0.5em 0 0 0">
 (\_/)
 ('-')
 </pre>
+</center>
+
 
 I'm a programmer currently living in your walls!
 

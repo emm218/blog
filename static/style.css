@@ -50,7 +50,7 @@ menu {
 	text-align:center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, pre {
 	line-height:1;
 }
 
@@ -108,10 +108,5 @@ hr {
 .border-image {
 	border:none;
 	margin:0;
-}
-
-pre {
-	line-height:1.2;
-	text-align:center;
 }
 
