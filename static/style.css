@@ -109,3 +109,9 @@ hr {
 	border:none;
 	margin:0;
 }
+
+pre {
+	line-height:1.2;
+	text-align:center;
+}
+

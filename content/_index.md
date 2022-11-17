@@ -7,10 +7,16 @@ menu:
     weight: -20
 ---
 
-{{% center %}}
-Welcome to my site!  
+<center>
+Welcome to my site!
+<br>
 欢迎来到我的网站！
-{{% /center %}}
+</center>
+
+<pre>
+(\_/)
+('-')
+</pre>
 
 I'm a programmer currently living in your walls!
 
@@ -19,6 +25,8 @@ mail: [`emm218@riseup.net`](mailto:emm218@riseup.net)
 fingerprint is `F3411945D78FFF434B59B777EBCC5BA8B93C8AA9`
 
 <img src="/pix/mymelody.png" alt="My Melody learns to code" title="My Melody learns to code" width=300px>
+
+you can view the hugo project for this site [here!](https://github.com/emm218/blog)
 
 <center id="badges">
 <img src="/pix/vim.gif" alt="Edited in VIM" title="it was actually neovim >:)">
