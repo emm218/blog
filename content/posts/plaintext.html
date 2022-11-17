@@ -1,0 +1,62 @@
+---
+title: "Adding Plaintext Output to Hugo"
+date: 2022-11-16T23:47:22-05:00
+outputs:
+- txt
+---
+
+I love html and css but sometimes, for one reason or another, I'd rather post
+something as 80 columns of ascii text. I also love hugo, its quite possibly the
+best thing to happen to me on the web since I learned html in the 2000s, but I
+was worried that it wouldn't be able to support plain text output without
+modifying the code (which would probably be doable but is definitely
+intimidating). For most things I've wanted to do with hugo there's been an easy
+to follow tutorial somewhere on the net but unsurprisingly given how weird this
+use case is I was unable to find one. Thankfully I eventually found the right
+section of hugo's documentation and was able to work it out, so I thought I'd
+share it here so that if someone else wants to do this in the future it will be
+easier.
+
+The first step of setting up a custom output format is setting up the correct
+media type. Luckily, hugo ships with the 'text/plain' media type already set up,
+since it's used for robots.txt files. Therefore we can move straight to step 2
+and create the output format. I inserted the following entry into config.toml:
+
+[outputformats]
+[outputformats.TXT]
+mediatype = "text/plain"
+isPlainText = true
+permalinkable = true
+notAlternative = true
+
+Great! we can add a plaintext output to any content file now by adding 'txt' to
+the outputs list in the front matter. Buuuut we still need to add templates to
+our theme. Hugo makes this easy though, we just need to add a 'baseof.txt' and
+a 'single.txt' to layouts/_default. If you need a more complicated template
+setup you probably already know the lookup rules well enough that you don't need
+the rest of this (in fact, you probably didn't need any of this :P). I added
+a really really basic base template. Literally the shortest possible:
+
+{{- block "main" . -}}{{- end -}}
+
+My 'single.txt' template is a little more complicated. I wanted it to mirror my
+html post format, with an automatically inserted title, date, license notice and 
+links to the next and previous posts:
+
+{{- define "main" -}}
+{{ .Title }}	{{ .Lastmod.Format "2006-01-02" }}
+{{ .Content }}
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+International License.
+---
+{{ with .PrevInSection }}prev:{{ .Permalink }}{{- end -}}
+{{ with .NextInSection }}next:{{ .Permalink }}{{ end }}
+{{- end -}}
+
+And with that everything should work! One last note, since we don't want
+markdown processing (or ANY processing) we need to use .html as the extension
+for the files under content, even though this isn't really html. It's hacky and
+there may be a way to fix it but I don't know it :P
+
+...wow! you're reading this with the very same plaintext output format I just 
+described creating to you :3

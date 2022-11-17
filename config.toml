@@ -1,3 +1,25 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://emm218.neocities.org'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Emmy's Paradise"
+uglyurls = true
+
+mainSections = [ 'posts' ]
+
+
+markup.goldmark.renderer.unsafe = true
+
+[outputformats]
+[outputformats.TXT]
+mediatype = "text/plain"
+isPlainText = true
+permalinkable = true
+notAlternative = true
+
+[menu]
+[[menu.main]]
+	name = "fediverse"
+	url = "https://akko.disqordia.space/sinistrist"
+
+[[menu.main]]
+	name = "github"
+	url = "https://github.com/emm218"

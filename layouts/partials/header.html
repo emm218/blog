@@ -1,7 +1,7 @@
 <header>
-	<h1>{{ .Site.Title }}</h1>
+	<h1 id="title"><img src="/pix/logo.png" alt="{{ .Site.Title }}"></h1>
 </header>
 <nav>
-	<menu>{{ range .Site.Menus.main }}<li><a href = "{{ .URL }}">{{ .Name }}</a></li>{{ end }}</menu>
+	<menu>{{ range .Site.Menus.main }}<li><a href = "{{ .URL }}">{{ lower .Name }}</a></li>{{ end }}</menu>
 </nav>
-<hr>
+<hr/>
