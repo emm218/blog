@@ -7,13 +7,11 @@ body {
 	margin: auto;
 	line-height:1.6;
 	font-size:12pt;
-	background: #fdf3f4;
-	background-image:url(/pix/topborder.png);
-	background-repeat:repeat-x;
+	background: #fdf3f4 url(/pix/topborder.png) repeat-x;
 	color:#57565b;
 	border:1px solid #57565b;
 	border-top:none;
-	box-shadow:0 0 2em #f55072;
+	box-shadow:0 0 4em -1em #f33699;
 }
 
 .skip {
@@ -53,6 +51,10 @@ h1, h2, h3, pre {
 	line-height:1;
 }
 
+h1 {
+	text-align:center;
+}
+
 a, a:visited {
 	color:#f55072;
 }
@@ -72,13 +74,13 @@ footer a, footer a:visited {
 
 img {
 	max-width:100%;
-	display:block;
-	margin:1em auto;
 	border:1px solid black;
+	margin:0.3ex 0;
+	vertical-align:middle;
 }
 
 #badges img, .gif {
-	display:inline;
+	vertical-align:baseline;
 	margin:0;
 	border:none;
 }

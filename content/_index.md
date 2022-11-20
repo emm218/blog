@@ -25,7 +25,9 @@ mail: [`emm218@riseup.net`](mailto:emm218@riseup.net)
 [pgp](/pgp.asc)
 fingerprint is `F3411945D78FFF434B59B777EBCC5BA8B93C8AA9`
 
+<center>
 <img src="/pix/mymelody.png" alt="My Melody learns to code" title="My Melody learns to code" width=300px>
+</center>
 
 you can view the hugo project for this site [here!](https://github.com/emm218/blog)
 
