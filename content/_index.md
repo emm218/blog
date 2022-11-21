@@ -41,6 +41,7 @@ you can view the hugo project for this site [here!](https://github.com/emm218/bl
 <img src="/pix/queercoding.png" alt="You&amp;rsquo;re telling me a queer coded this?">
 <img src="/pix/neocities.gif" alt="Neocities">
 <a href="https://www.heavensgate.com/"><img src="/pix/heavens-gate.gif" alt="Heaven&amp;rsquo;s Gate" title="what if they're right?"></a>
+<a href="https://dancesafe.org/"><img src="/pix/dancesafe.gif" alt="Dance Safe" title="always test your drugs!!!"></a>
 <img src="/pix/free-palestine.gif" alt="Free Palestine">
 <img src="/pix/2hu.gif" alt="Touhou project">
 </center>
