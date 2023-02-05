@@ -18,12 +18,17 @@ Welcome to my site!
 </pre>
 </center>
 
-
+<p title="there are hundreds of us">
 I'm a programmer currently living in your walls!
+</p>
 
-mail: [`emm218@riseup.net`](mailto:emm218@riseup.net)  
+xmpp: <code>emm218\@snug.moe</code>
+
 [pgp](/pgp.asc)
-fingerprint is `F3411945D78FFF434B59B777EBCC5BA8B93C8AA9`
+fingerprint is `F3411945D78FFF434B59B777EBCC5BA8B93C8AA9`  
+or get it from [a keyserver](https://keys.openpgp.org)
+
+Feel free to talk to me on XMPP ~~or sneed me email~~ *(sorry email setup is broken temporarily)*, I like meeting new people!
 
 <center>
 <img src="/pix/mymelody.png" alt="My Melody learns to code" title="My Melody learns to code" width=300px>

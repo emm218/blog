@@ -4,6 +4,6 @@
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
 International License.
 ---
-{{ with .PrevInSection }}prev:{{ .Permalink }}{{- end -}}
+{{ with .PrevInSection }}prev:{{ .Permalink }}{{ end }}
 {{ with .NextInSection }}next:{{ .Permalink }}{{ end }}
 {{- end -}}
