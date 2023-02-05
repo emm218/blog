@@ -8,7 +8,7 @@ rave kandi ^_^ I haven't been doing it for very long and also dont get to go to
 raves as often as I'd like so my collection is still really small but I really
 like all of them
 
-![My 9 kandi bracelets](/pix/kandi.jpeg)
+![My 9 kandi bracelets](/pix/kandi.webp)
 
 More detail on each of them (from bottom to top, left to right)
 1. My rainbow Kali Yuga bracelet was the first piece of kandi I ever made and

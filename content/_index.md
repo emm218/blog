@@ -31,7 +31,7 @@ or get it from [a keyserver](https://keys.openpgp.org)
 Feel free to talk to me on XMPP ~~or sneed me email~~ *(sorry email setup is broken temporarily)*, I like meeting new people!
 
 <center>
-<img src="/pix/mymelody.png" alt="My Melody learns to code" title="My Melody learns to code" width=300px>
+<img src="/pix/mymelody.webp" alt="My Melody learns to code" title="My Melody learns to code" width=300px>
 </center>
 
 you can view the hugo project for this site [here!](https://github.com/emm218/blog)
@@ -43,7 +43,7 @@ you can view the hugo project for this site [here!](https://github.com/emm218/bl
 <img src="/pix/anti-google.gif" alt="Stand up to google">
 <img src="/pix/smile.gif" alt="Have a smile">
 <img src="/pix/torrents.gif" alt="Seed your torrents">
-<img src="/pix/queercoding.png" alt="You&amp;rsquo;re telling me a queer coded this?">
+<img src="/pix/queercoding.webp" alt="You&amp;rsquo;re telling me a queer coded this?">
 <img src="/pix/neocities.gif" alt="Neocities">
 <a href="https://www.heavensgate.com/"><img src="/pix/heavens-gate.gif" alt="Heaven&amp;rsquo;s Gate" title="what if they're right?"></a>
 <a href="https://dancesafe.org/"><img src="/pix/dancesafe.gif" alt="Dance Safe" title="always test your drugs!!!"></a>
