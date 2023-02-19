@@ -56,7 +56,7 @@ More detail on each of them (from bottom to top, left to right)
    that sort of violence, and especially with violence made ritual, which for
    me ties into the original religious meaning of cult/kvlt.
 
-8. This is my most boring bracelet it's lierally just colors I thought were
+8. This is my most boring bracelet it's literally just colors I thought were
    pretty
 
 9. This is my only bracelet which straightforwardly references a music artist.
@@ -71,4 +71,7 @@ bracelet self destruct). Like I mentioned when talking about the flower cuff, I
 got some nicer elastic from a friend so I'm probably going to restring the ones
 that aren't already using it.
 
-anyway thanks for reading ^_^ ily all 🫀🫀🫀
+anyway thanks for reading ^.^ ily all 🫀🫀🫀
+
+**update <time>2023-02-11</time>:** the kali yuga bracelet was lost at a Machine
+Girl concert. Rest in peace my fallen comrade :(

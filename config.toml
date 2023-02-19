@@ -19,7 +19,11 @@ notAlternative = true
 [[menu.main]]
 	name = "fediverse"
 	url = "https://akko.disqordia.space/sinistrist"
+	[menu.main.params]
+		rel = "me"
 
 [[menu.main]]
 	name = "github"
 	url = "https://github.com/emm218"
+	[menu.main.params]
+		rel = "me"
