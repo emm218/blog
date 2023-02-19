@@ -4,7 +4,7 @@ title = "Emmy's Paradise"
 uglyurls = true
 
 mainSections = [ 'posts' ]
-
+disableKinds = [ 'taxonomy', 'term' ]
 
 [markup]
 goldmark.renderer.unsafe = true

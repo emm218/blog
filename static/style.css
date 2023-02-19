@@ -7,11 +7,11 @@ body {
 	margin: auto;
 	line-height:1.6;
 	font-size:12pt;
+	color:#57565b;
 }
 
 #wrapper {
 	background-color: white;
-	color:#57565b;
 	border:5px double #f33699;
 	border-bottom:none;
 	padding:0.5em 1.5em;
