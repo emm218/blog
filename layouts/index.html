@@ -1,8 +1,11 @@
 {{ define "main" }}
 {{ .Content }}
-<ul>
+<hr>
+<center>
+<ul id="post-list">
 {{ range (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)}}
-<li><a href="{{ .Permalink }}">{{ .Title }}</a> <time>{{ .Lastmod.Format "2006-01-02" }}</time></li>
+<li><time>{{ .Lastmod.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
+</center>
 {{ end }}

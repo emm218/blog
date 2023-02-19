@@ -7,11 +7,16 @@ body {
 	margin: auto;
 	line-height:1.6;
 	font-size:12pt;
-	background: #fdf3f4 url(/pix/topborder.webp) repeat-x;
+}
+
+#wrapper {
+	background-color: white;
 	color:#57565b;
-	border:1px solid #57565b;
-	border-top:none;
-	box-shadow:0 0 4em -1em #f33699;
+	border:5px double #f33699;
+	border-bottom:none;
+	padding:0.5em 1.5em;
+	border-top-left-radius:0.75em;
+	border-top-right-radius:0.75em;
 }
 
 .skip {
@@ -52,7 +57,7 @@ h1, h2, h3, pre {
 }
 
 a, a:visited {
-	color:#f55072;
+	color:#f33699;
 }
 
 #title {
@@ -98,6 +103,7 @@ img {
 
 hr {
 	height:11px;
+	width:574px;
 	border:none;
 	background:url(pix/divider.gif);
 }
@@ -107,3 +113,22 @@ hr {
 	margin:0;
 }
 
+.highlight pre {
+	padding:0.5em;
+	border-radius:0.5em;
+	border: #57565B solid 1px; 
+}
+
+#post-list {
+	list-style-type: none;
+	padding: 0;
+	display: inline-flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin:0;
+}
+
+#post-list li {
+	flex-shrink:1;
+	display: inline-block;
+}

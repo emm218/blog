@@ -9,12 +9,15 @@
 		<title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 	</head>
   <body>
-		<div style="padding:1.5em 26px 0;">
+		<header>
+			<h1 id="title"><img src="/pix/logo.webp" alt="{{ .Site.Title }}"></h1>
+		</header>
+		<div id="wrapper">
 		<a href="#main" class="skip">Skip to content</a>
-		{{ partial "header.html" . }}
+		{{ partial "nav.html" . }}
 		<a id="main"></a>
 		{{ block "main" . }}{{ end }}
-		</div>
 		{{ partial "footer.html" . }}
+		</div>
 	</body>
 </html>

@@ -6,7 +6,11 @@ uglyurls = true
 mainSections = [ 'posts' ]
 
 
-markup.goldmark.renderer.unsafe = true
+[markup]
+goldmark.renderer.unsafe = true
+[markup.highlight]
+	style="catppuccin-latte"
+	tabwidth=4
 
 [outputformats]
 [outputformats.TXT]

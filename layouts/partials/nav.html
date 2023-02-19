@@ -1,6 +1,3 @@
-<header>
-	<h1 id="title"><img src="/pix/logo.webp" alt="{{ .Site.Title }}"></h1>
-</header>
 <nav>
 	<menu>{{ range .Site.Menus.main }}<li><a href = "{{ .URL }}" {{ with .Params.rel }} rel="{{ . }}" {{ end }}>{{ lower .Name }}</a></li>{{ end }}</menu>
 </nav>
