@@ -50,11 +50,3 @@ you can view the hugo project for this site [here!](https://github.com/emm218/bl
 <img src="/pix/free-palestine.gif" alt="Free Palestine">
 <img src="/pix/2hu.gif" alt="Touhou project">
 </center>
-
-<center>
-    <a href="https://fediring.net/previous?host=emm218.neocities.org">&lt;</a>
-    <a href="https://fediring.net/">Fediring</a>
-    <a href="https://fediring.net/next?host=emm218.neocities.org">&gt;</a>
-    <br>
-    <a href="https://fediring.net/random">Random Page!</a>
-</center>

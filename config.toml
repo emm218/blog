@@ -22,7 +22,7 @@ notAlternative = true
 [menu]
 [[menu.main]]
 	name = "fediverse"
-	url = "https://akko.disqordia.space/sinistrist"
+	url = "https://worm.pink/sinistrist"
 	[menu.main.params]
 		rel = "me"
 

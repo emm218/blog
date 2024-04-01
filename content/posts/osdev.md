@@ -43,10 +43,11 @@ u-boot load can be very simple.
 ## Project Setup
 
 For keeping the kernel, the loader, and any future things I may write that I
-want to keep as separate packages (e.g. driver modules) together I created
-a single [git repo](https://github.com/emm218/osdev) that is a cargo workspace. It contains 2 files, a very short
-`Cargo.toml` for the entire workspace and a `rust-toolchain.toml` which ensures
-that cargo will grab the required toolchain for our 2 slightly unusual targets
+want to keep as separate packages (e.g. driver modules) together I created a
+single [git repo](https://github.com/emm218/osdev) that is a cargo workspace. It
+contains 2 files, a very short `Cargo.toml` for the entire workspace and a
+`rust-toolchain.toml` which ensures that cargo will grab the required toolchain
+for our 2 slightly unusual targets
 
 ```toml
 # Cargo.toml
@@ -64,4 +65,3 @@ channel = "nightly"
 targets = ["aarch64-unknown-uefi", "aarch64-unknown-none"]
 
 ```
-
